@@ -1,0 +1,117 @@
+body{
+    font-size: 22px;
+    text-align: center;
+    font-family: "Lexend Mega", 'Sofia Sans Semi Condensed', sans-serif;
+    color: black;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+h1{
+    font-size: 60px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.navbar p{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+a{
+    color: black;
+}
+
+.main{
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission{
+    display: flex;
+    height: 300px;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    padding-top: 35px;
+}
+
+.mission .content{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio{
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    pad: 10px;
+    height: auto;
+}
+
+.company span{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.team{
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate{
+    color: white;
+    padding: 10px;
+    flex-basis: 280px;
+}
+
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contact, .copyright{
+    padding-top: 20px;
+}
+
+h2, h3, h4, p{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    font-weight: lighter;
+}
